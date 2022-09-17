@@ -5,6 +5,8 @@ const crypto = require("crypto");
 const jwt = require("jsonwebtoken"); //for authentication
 const expressJwt = require("express-jwt"); //authorization
 
+// Sujan Pradhan learn backend practice to be familar with the backend node js along with express -js
+
 //register user and send emaail confirmation link
 
 exports.userRegister = async (req, res) => {
